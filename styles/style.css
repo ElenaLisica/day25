@@ -1,3 +1,9 @@
+@font-face{
+	font-family: MyriadProRegular;
+	src:url("../font/MyriadProRegular.otf");
+	font-weight: normal;
+	font-size: normal;
+}
 body{
 	background-color: #ffffff;
 }
@@ -12,6 +18,7 @@ div{
 
 h1{
 	font-size: 42px;
+	font-family: 'Playfair+Display',serif;
 }
 
 span{
@@ -27,11 +34,15 @@ span{
 	margin-right: 15px;
 	margin-bottom: 10px;
 	opacity: 1;
+	font-family: 'Playfair+Display',serif;
+
 }
 
 blockquote{
 	font-size: 18px;
 	font-style: italic;
+	font-family: MyriadProRegular,Arial,sans-serif;
+
 }
 
 button{
@@ -43,4 +54,5 @@ button{
 	border:2px solid #EAA258;
 	background-color: transparent;
 	letter-spacing:200%;
+	font-family: Arial,sans-serif;
 }
